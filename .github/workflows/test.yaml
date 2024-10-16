@@ -11,13 +11,13 @@ jobs:
         
       - name: Touch file  # Crea
         run: |
-          touch hola.txt
-          ls -al
+              touch hola.txt
+              ls -al
           
       - name: Set text  # Agrega
         run: |
-          echo "Hola mundo" >> hola.txt
-          ls -al
+              echo "Hola mundo" >> hola.txt
+              ls -al
           
       - name: Read file  # Lee
         run: |
